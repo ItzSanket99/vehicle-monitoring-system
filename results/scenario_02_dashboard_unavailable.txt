@@ -1,0 +1,16 @@
+Scenario 2: Dashboard ECU Unavailable
+
+UDP test:
+- Dashboard was stopped before the test.
+- Observation: Fill in the actual sender output.
+- Result: Pass/Fail after verification.
+
+TCP test:
+- Dashboard was stopped before the test.
+- Observation: Fill in the actual connection result.
+- Result: Pass/Fail after verification.
+
+Conclusion:
+UDP can send datagrams without establishing a receiver connection.
+TCP requires a successful connection before application data can
+be transmitted through the established stream.
