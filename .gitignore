@@ -1,0 +1,6 @@
+# Compiled binaries
+/build/
+
+# Temporary files
+*.log
+*.tmp
