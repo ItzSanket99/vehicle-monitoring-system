@@ -1,0 +1,13 @@
+Scenario 4: Invalid Configuration Testing
+
+Test 1: Invalid IPv4 address
+Command: ./build/vehicle_ecu udp 999.999.999.999
+Expected: Application rejects the address and exits.
+Actual result: Fill in after execution.
+Status: Pass/Fail
+
+Test 2: Invalid port
+Command: ./build/vehicle_ecu udp 127.0.0.1 70000
+Expected: Application rejects the port and exits.
+Actual result: Fill in after execution.
+Status: Pass/Fail
