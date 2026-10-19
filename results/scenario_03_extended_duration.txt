@@ -1,0 +1,8 @@
+Scenario 3: Extended-Duration UDP Test
+Date: Mon Oct 19 07:53:05 PM IST 2026
+
+Vehicle messages sent:
+32
+
+Dashboard messages received:
+32
